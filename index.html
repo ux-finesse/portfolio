@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     x
   </head>
-  <body>
+  <body id="top">
     <!--header-->
     <header>
       <div class="header_cont">
@@ -18,25 +18,19 @@
           <ul>
             <li>
               <a
-                data-testid="hngLink"
-                href="http://hng.tech/learn"
-                target="_blank"
+                href="#top"
                 >About</a
               >
             </li>
             <li>
               <a
-                data-testid="keywordLink"
-                href="http://keyword.dog"
-                target="_blank"
+                href="#portfolio"
                 >Portfolio</a
               >
             </li>
             <li>
               <a
-                data-testid="scrapeanywebLink"
-                href="http://scrapeanyweb.site"
-                target="_blank"
+                href="#contact"
                 >Contact Us</a
               >
             </li>
@@ -102,7 +96,7 @@
         <div class="info">
           <div class="info_cont">
             <h1>Hi 👋🏾 I'm Peter, nice to meet you.</h1>
-            <div class="about">
+            <div class="about" id="about">
               <h3>About</h3>
               <p>
                 As a UI/UX designer who is enthusiastic about producing seamless
@@ -166,7 +160,7 @@
               </div>
             </div>
 
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
               <h3>Portfolio</h3>
               <div class="cards">
                 <div class="card1">Project 1</div>
@@ -178,7 +172,7 @@
               </div>
             </div>
 
-            <div class="contact">
+            <div class="contact" id="contact">
               <h3>Contact</h3>
 
               <form id="contactForm" novalidate>
@@ -186,7 +180,7 @@
                 <input
                   id="fullName"
                   type="text"
-                  placeholder="Peter Olugbenga"
+                  placeholder="Your name here"
                   autocomplete
                   required
                 />

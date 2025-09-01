@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
       //stop default submission except validation success
       event.preventDefault();
 
-      console.log("handler running"); // sanity check
-
       //get the value typed in by users and remove white space start and end.
       const name = document.getElementById("fullName").value.trim();
       const email = document.getElementById("email").value.trim();

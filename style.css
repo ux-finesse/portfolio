@@ -9,6 +9,10 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   z-index: -1;
@@ -167,6 +171,7 @@ form {
   align-items: center;
   color: #f0ffff;
   justify-content: center;
+  cursor: pointer;
 }
 
 .card1:hover {
@@ -304,17 +309,31 @@ footer {
 }
 
 .success h1,
-.success p,
-.success a {
+.success p {
   background-color: #f0ffff;
   text-align: center;
   text-decoration: none;
   color: #0c0e1d;
 }
 
+.success a {
+  background-color: #f0ffff;
+  text-align: center;
+  text-decoration: none;
+  color: #0c0e1d;
+  font-size: 12px;
+}
+
 .success a:hover {
   color: #0c0e1d;
   text-decoration: underline;
+}
+
+.succ_top{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0ffff;
 }
 
 .succ {
